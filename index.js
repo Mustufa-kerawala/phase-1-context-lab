@@ -1,5 +1,38 @@
 /* Your Code Here */
 
+array = [1,2,3,4]
+console.log(array)
+
+function createEmployeeRecord(employeeArray) {
+    return {
+        firstName: employeeArray[0],
+        familyName: employeeArray[1],
+        title: employeeArray[2],
+        payPerHour: employeeArray[3],
+        timeInEvents: [],
+        timeOutEvents: []
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
  We're giving you this function. Take a look at it, you might see some usage
  that's new and different. That's because we're avoiding a well-known, but
